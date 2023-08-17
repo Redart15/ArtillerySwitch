@@ -2,6 +2,7 @@ local disabled_turret
 local disabled_turret_item
 local disabled_gun
 
+
 local function create_disabled_wagon()
 	for _, entity in pairs(data.raw["artillery-wagon"]) do
 		
@@ -35,7 +36,7 @@ data:extend({
 		type = "virtual-signal",
 		name = "signal-disabled",
 		localised_name = {"gui-alert-tooltip.title"},
-		icon = "__core__/graphics/destroyed-icon.png",
+		icon = "__core__/graphics/icons/alerts/destroyed-icon.png",
 		icon_size = 64,
 		subgroup = "virtual-signal-color",
 		order = "d[colors]-[9disabled]",

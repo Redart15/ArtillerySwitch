@@ -1,9 +1,9 @@
 {
 	"name": "ArtillerySwitch",
 	"version": "1.0.2",
-	"factorio_version": "0.17",
+	"factorio_version": "1.1",
 	"title": "Artillery Switch",
-	"author": "Fuzzywuzhe", "redart15"
+	"author":  "Fuzzywuzhe",
 	"contact": "",
 	"homepage": "",
 	"description": "Adds a switch for turning artillery wagon’s auto fire on/off."

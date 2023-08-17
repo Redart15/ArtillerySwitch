@@ -1,5 +1,5 @@
 require("util")
-require "mod-gui"
+local mod_gui = require ("mod-gui")
 
 local function artillery_swap(wagon,new_name)
 	local shellname = {}
@@ -90,7 +90,6 @@ function ChangeFrame(player)
 end
 
 script.on_event(defines.events.on_player_driving_changed_state, function(event)
-
     local player = game.players[event.player_index]
 	ChangeFrame(player)
 end)
